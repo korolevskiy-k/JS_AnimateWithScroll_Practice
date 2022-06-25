@@ -1,0 +1,36 @@
+.body {
+    background-color: #fff;
+}
+.wrapper {
+    min-height: 100%;
+}
+.page {
+    background-color: #fff;
+}
+.page__section {
+    padding: 50px;
+    min-height: 100vh;
+}
+.page__section:nth-child(1) {
+    background-color: #ffffff;
+}
+.page__section:nth-child(2) {
+    background-color: #2f2f2f;
+}
+.page__container {
+    max-width: 1070px;
+    margin: 0 auto;
+}
+.page__title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+.page__row {
+    display: flex;
+    gap: 20px;
+}
+.page__counter {
+    flex: 0 1 33%;
+    font-size: 60px;
+}
